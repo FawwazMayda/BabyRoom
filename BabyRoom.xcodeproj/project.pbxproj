@@ -13,6 +13,9 @@
 		4D2CF4432494AE28008455E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D2CF4412494AE28008455E4 /* Main.storyboard */; };
 		4D2CF4452494AE29008455E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D2CF4442494AE29008455E4 /* Assets.xcassets */; };
 		4D2CF4482494AE29008455E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D2CF4462494AE29008455E4 /* LaunchScreen.storyboard */; };
+		4D2CF4502494AEC7008455E4 /* SceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2CF44F2494AEC7008455E4 /* SceneViewController.swift */; };
+		4D2CF4522494F281008455E4 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D2CF4512494F281008455E4 /* art.scnassets */; };
+		4D2CF4542494F294008455E4 /* Babycrib.obj in Resources */ = {isa = PBXBuildFile; fileRef = 4D2CF4532494F293008455E4 /* Babycrib.obj */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		4D2CF4442494AE29008455E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D2CF4472494AE29008455E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D2CF4492494AE29008455E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D2CF44F2494AEC7008455E4 /* SceneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneViewController.swift; sourceTree = "<group>"; };
+		4D2CF4512494F281008455E4 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		4D2CF4532494F293008455E4 /* Babycrib.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Babycrib.obj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +64,14 @@
 			children = (
 				4D2CF43B2494AE28008455E4 /* AppDelegate.swift */,
 				4D2CF43D2494AE28008455E4 /* SceneDelegate.swift */,
+				4D2CF44F2494AEC7008455E4 /* SceneViewController.swift */,
 				4D2CF43F2494AE28008455E4 /* ViewController.swift */,
 				4D2CF4412494AE28008455E4 /* Main.storyboard */,
+				4D2CF4532494F293008455E4 /* Babycrib.obj */,
 				4D2CF4442494AE29008455E4 /* Assets.xcassets */,
 				4D2CF4462494AE29008455E4 /* LaunchScreen.storyboard */,
 				4D2CF4492494AE29008455E4 /* Info.plist */,
+				4D2CF4512494F281008455E4 /* art.scnassets */,
 			);
 			path = BabyRoom;
 			sourceTree = "<group>";
@@ -126,6 +135,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D2CF4482494AE29008455E4 /* LaunchScreen.storyboard in Resources */,
+				4D2CF4542494F294008455E4 /* Babycrib.obj in Resources */,
+				4D2CF4522494F281008455E4 /* art.scnassets in Resources */,
 				4D2CF4452494AE29008455E4 /* Assets.xcassets in Resources */,
 				4D2CF4432494AE28008455E4 /* Main.storyboard in Resources */,
 			);
@@ -139,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D2CF4402494AE28008455E4 /* ViewController.swift in Sources */,
+				4D2CF4502494AEC7008455E4 /* SceneViewController.swift in Sources */,
 				4D2CF43C2494AE28008455E4 /* AppDelegate.swift in Sources */,
 				4D2CF43E2494AE28008455E4 /* SceneDelegate.swift in Sources */,
 			);
